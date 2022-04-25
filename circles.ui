@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Circles</class>
+ <widget class="QDialog" name="Circles">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>344</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="i1">
+       <property name="text">
+        <string>i1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="i2">
+       <property name="text">
+        <string>i2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="i3">
+       <property name="text">
+        <string>i3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="i4">
+       <property name="text">
+        <string>i4</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="x1">
+       <property name="text">
+        <string>x1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x2">
+       <property name="text">
+        <string>x2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x3">
+       <property name="text">
+        <string>x3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x4">
+       <property name="text">
+        <string>x4</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QOpenGLWidget" name="openGLWidget">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

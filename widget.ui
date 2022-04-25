@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>515</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QOpenGLWidget" name="openGLWidget">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>300</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>705</width>
+       <height>705</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="y8">
+       <property name="text">
+        <string>y8</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y7">
+       <property name="text">
+        <string>y7</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y6">
+       <property name="text">
+        <string>y6</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y5">
+       <property name="text">
+        <string>y5</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y4">
+       <property name="text">
+        <string>y4</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y3">
+       <property name="text">
+        <string>y3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y2">
+       <property name="text">
+        <string>y2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="y1">
+       <property name="text">
+        <string>y1</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,0,0,0,0,0,0,0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="x1">
+       <property name="text">
+        <string>x1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x2">
+       <property name="text">
+        <string>x2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x3">
+       <property name="text">
+        <string>x3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x4">
+       <property name="text">
+        <string>x4</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x5">
+       <property name="text">
+        <string>x5</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x6">
+       <property name="text">
+        <string>x6</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x7">
+       <property name="text">
+        <string>x7</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="x8">
+       <property name="text">
+        <string>x8</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QHBoxLayout" name="_2">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMaximumSize</enum>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Build</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMaximumSize</enum>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="AA"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="BB"/>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Tangent at a point:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetMaximumSize</enum>
+       </property>
+       <item>
+        <widget class="QLineEdit" name="tangent"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="text">
+          <string>Build tangent</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
